@@ -9,9 +9,7 @@ var isPalindrome = function(x) {
     const arr = String(x).split('').map(Number);
 
     n=Math.floor(arr.length/2);
-    console.log(n)
     for (let i = 0; i<n; i++){
-        console.log(arr[i], arr[arr.length -1 -i])
         if(arr[i] !== arr[arr.length -1- i]){
             return false;
         }
