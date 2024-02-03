@@ -7,9 +7,7 @@ var isPalindrome = function(x) {
     if(x<10){return true;}
 
     const arr = String(x).split('').map(Number);
-
-    n=Math.floor(arr.length/2);
-    for (let i = 0; i<n; i++){
+    for (let i = 0; i<Math.floor(arr.length/2); i++){
         if(arr[i] !== arr[arr.length -1- i]){
             return false;
         }
