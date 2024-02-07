@@ -10,12 +10,12 @@ var lengthOfLastWord = function(s) {
         if(text.charAt(i) === " "){
             lastword= "";
             length = 0;
-            console.log("spacja")
+
         }
         else{
             lastword = lastword + text.charAt(i)
             length += 1
-            console.log("znak")
+
         }
     }
     return length;
