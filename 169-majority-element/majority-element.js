@@ -11,10 +11,8 @@ var majorityElement = function(nums) {
     if(n==1){return nums[0]}
     else{
     nums.forEach(ele => {
-    console.log(ele)
     if (counter[ele]) {
         counter[ele] += 1;
-        
         if(counter[ele]>m){
         max = ele
         }
