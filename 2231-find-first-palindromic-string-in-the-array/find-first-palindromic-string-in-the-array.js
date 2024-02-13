@@ -11,7 +11,7 @@ var firstPalindrome = function(words) {
        
 
         for(let i = 0; i<Math.floor(n/2); i++){
-            console.log(words[item].charAt(i),words[item].charAt(n-i-1))
+    
             if(words[item].charAt(i) !== words[item].charAt(n-i-1)){
                 
                 pali = false;
