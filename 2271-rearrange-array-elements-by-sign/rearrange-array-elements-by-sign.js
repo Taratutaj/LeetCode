@@ -15,9 +15,8 @@ var rearrangeArray = function(nums) {
             negativeArr.push(item)
         }
     }
-    const n = nums.length/2;
     let i = 0;
-    while(i<n){
+    while(i<nums.length/2){
         result.push(positiveArr[i])
         result.push(negativeArr[i])
         i+=1
