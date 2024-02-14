@@ -22,6 +22,5 @@ var rearrangeArray = function(nums) {
         result.push(negativeArr[i])
         i+=1
     }
-    console.log(positiveArr, negativeArr, result)
     return result
 };
