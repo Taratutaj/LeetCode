@@ -12,10 +12,8 @@ var findLeastNumOfUniqueInts = function (arr, k) {
         return arr.sort((a, b) => map[a] - map[b] || b - a);
     };
     frequencySort(arr);
-    console.log(arr);
 
     arr.splice(0, k)
-    console.log(arr);
 
     let result = 1
     if (arr.length > 1) {
