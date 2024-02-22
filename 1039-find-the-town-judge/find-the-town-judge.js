@@ -4,6 +4,8 @@
  * @return {number}
  */
 var findJudge = function (n, trust) {
+    if(n==1) return 1
+    if(trust.length==0) return -1
     const arr = Array.from(
         { length: n },
         (_, index) => index + 1
@@ -22,7 +24,6 @@ var findJudge = function (n, trust) {
     }
 
     if (arr.length !== 1) {
-
         return -1
     }
 
