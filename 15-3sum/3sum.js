@@ -22,7 +22,7 @@ var threeSum = function(nums) {
             l++;
             r--;
             while(nums[l]==nums[l-1] && l<r) {
-                    l++;
+                     l++;
                 }
         }else if(sum> 0){
             r--;
