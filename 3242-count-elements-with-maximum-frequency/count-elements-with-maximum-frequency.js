@@ -4,8 +4,6 @@
  */
 var maxFrequencyElements = function(nums) {
 
-nums.sort((a,b)=>a-b)
-
 let obj = {}
 let max = 1
 
@@ -19,7 +17,6 @@ nums.forEach(element => {
         obj[element] =1
     }
 })
-console.log(obj,max)
 let ans = 0
 for(element in obj){
 
