@@ -11,8 +11,6 @@ var customSortString = function(order, s) {
   //create arr
   let arrSorted = []
 
-  console.log(arrOrder, arrS, arrSorted)
-
     for(let i= 0; i<arrOrder.length;i++){
       //take value from order
 
