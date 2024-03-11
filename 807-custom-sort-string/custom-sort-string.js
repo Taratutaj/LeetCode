@@ -12,6 +12,9 @@ var customSortString = function(order, s) {
   let arrSorted = []
 
     for(let i= 0; i<arrOrder.length;i++){
+        if(arrS.length == 0){
+            break;
+        }
       //take value from order
 
         //while s has value
