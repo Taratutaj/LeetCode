@@ -17,7 +17,6 @@ var pivotInteger = function(n) {
     for(let k = i; k<=n;k++){
         rightSum = rightSum + k
     }
-    console.log(i,leftSum, rightSum)
 
     if(leftSum == rightSum){
         return i
